@@ -1,0 +1,545 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ポイントカウンター</title>
+<link rel="stylesheet" href="reset.css">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>配信ポイント管理ツール</h1>
+		<p>※更新すると数値が全てリセットされるので注意</p>
+	</header>
+
+	
+	<div class="contents">
+		<div class="list" id="list1">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter1">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn1">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn1">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list2">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter2">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn2">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn2">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list3">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter3">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn3">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn3">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list4">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter4">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn4">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn4">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list5">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter5">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn5">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn5">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list6">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter6">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn6">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn6">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list7">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter7">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn7">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn7">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list8">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter8">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn8">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn8">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list9">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter9">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn9">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn9">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list10">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter10">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn10">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn10">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list11">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter11">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn11">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn11">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list12">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter12">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn12">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn12">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list13">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter13">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn13">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn13">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list14">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter14">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn14">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn14">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list15">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter15">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn15">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn15">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list16">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter16">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn16">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn16">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list17">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter17">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn17">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn17">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list18">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter18">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn18">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn18">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list19">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter19">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn19">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn19">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list20">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter20">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn20">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn20">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list21">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter21">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn21">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn21">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list22">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter22">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn22">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn22">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list23">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter23">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn23">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn23">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list24">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter24">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn24">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn24">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list25">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter25">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn25">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn25">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list26">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter26">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn26">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn26">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list27">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter27">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn27">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn27">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list28">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter28">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn28">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn28">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list29">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter29">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn29">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn29">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="list" id="list30">
+			<input type="text" name="name" placeholder="名前を入力">
+			
+			<div class="align">
+				<div class="counterdisplay">
+					<p class="counter" id="counter30">0</p>
+					<p class="points">ポイント</p>
+				</div>
+			
+				<div class="buttons">
+					<button class="btn" id="ad2btn30">1位(＋2P)</button>
+					<br>
+					<button class="btn" id="ad1btn30">2位(＋1P)</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
