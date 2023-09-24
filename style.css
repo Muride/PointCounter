@@ -1,9 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+.displaynone{
+	display:none;
+}
+.wrapper{
+	display:flex;
+}
+
+.ranking{
+	margin-left:20px;
+}
 
 header{
 	margin:20px 0px;
+	display:flex;
+	height:50px;
 }
+#showranking{
+	margin-left:20px;
+}
+
 h1{
 	font-size:25px;
 	font-weight:bold;
@@ -26,6 +42,10 @@ input{
 	width:200px;
 	height:40px;
 	background-color:#FFFBCE;
+}
+
+.locked{
+	pointer-events:none;
 }
 
 .align{
