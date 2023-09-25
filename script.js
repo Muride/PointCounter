@@ -48,6 +48,10 @@ $(function(){
 		amount1.point ++;
 		$("#counter1").text(amount1.point);
 	});
+	$("#min1btn1").click(function(){
+		amount1.point --;
+		$("#counter1").text(amount1.point);
+	});
 
 	$("#submit2").click(function(){
 		amount2.name = $("#name2").val();
@@ -62,6 +66,10 @@ $(function(){
 	});
 	$("#ad1btn2").click(function(){
 		amount2.point ++;
+		$("#counter2").text(amount2.point);
+	});
+	$("#min1btn2").click(function(){
+		amount2.point --;
 		$("#counter2").text(amount2.point);
 	});
 	
@@ -80,6 +88,10 @@ $(function(){
 		amount3.point ++;
 		$("#counter3").text(amount3.point);
 	});
+	$("#min1btn3").click(function(){
+		amount3.point --;
+		$("#counter3").text(amount3.point);
+	});
 	
 	$("#submit4").click(function(){
 		amount4.name = $("#name4").val();
@@ -94,6 +106,10 @@ $(function(){
 	});
 	$("#ad1btn4").click(function(){
 		amount4.point ++;
+		$("#counter4").text(amount4.point);
+	});
+	$("#min1btn4").click(function(){
+		amount4.point --;
 		$("#counter4").text(amount4.point);
 	});
 	
@@ -112,6 +128,10 @@ $(function(){
 		amount5.point ++;
 		$("#counter5").text(amount5.point);
 	});
+	$("#min1btn5").click(function(){
+		amount5.point --;
+		$("#counter5").text(amount5.point);
+	});
 	
 	$("#submit6").click(function(){
 		amount6.name = $("#name6").val();
@@ -126,6 +146,10 @@ $(function(){
 	});
 	$("#ad1btn6").click(function(){
 		amount6.point ++;
+		$("#counter6").text(amount6.point);
+	});
+	$("#min1btn6").click(function(){
+		amount6.point --;
 		$("#counter6").text(amount6.point);
 	});
 	
@@ -144,6 +168,10 @@ $(function(){
 		amount7.point ++;
 		$("#counter7").text(amount7.point);
 	});
+	$("#min1btn7").click(function(){
+		amount7.point --;
+		$("#counter7").text(amount7.point);
+	});
 	
 	$("#submit8").click(function(){
 		amount8.name = $("#name8").val();
@@ -158,6 +186,10 @@ $(function(){
 	});
 	$("#ad1btn8").click(function(){
 		amount8.point ++;
+		$("#counter8").text(amount8.point);
+	});
+	$("#min1btn8").click(function(){
+		amount8.point --;
 		$("#counter8").text(amount8.point);
 	});
 	
@@ -176,6 +208,10 @@ $(function(){
 		amount9.point ++;
 		$("#counter9").text(amount9.point);
 	});
+	$("#min1btn9").click(function(){
+		amount9.point --;
+		$("#counter9").text(amount9.point);
+	});
 	
 	$("#submit10").click(function(){
 		amount10.name = $("#name10").val();
@@ -190,6 +226,10 @@ $(function(){
 	});
 	$("#ad1btn10").click(function(){
 		amount10.point ++;
+		$("#counter10").text(amount10.point);
+	});
+	$("#min1btn10").click(function(){
+		amount10.point --;
 		$("#counter10").text(amount10.point);
 	});
 	
@@ -208,6 +248,10 @@ $(function(){
 		amount11.point ++;
 		$("#counter11").text(amount11.point);
 	});
+	$("#min1btn11").click(function(){
+		amount11.point --;
+		$("#counter11").text(amount11.point);
+	});
 	
 	$("#submit12").click(function(){
 		amount12.name = $("#name12").val();
@@ -222,6 +266,10 @@ $(function(){
 	});
 	$("#ad1btn12").click(function(){
 		amount12.point ++;
+		$("#counter12").text(amount12.point);
+	});
+	$("#min1btn12").click(function(){
+		amount12.point --;
 		$("#counter12").text(amount12.point);
 	});
 	
@@ -240,6 +288,10 @@ $(function(){
 		amount13.point ++;
 		$("#counter13").text(amount13.point);
 	});
+	$("#min1btn13").click(function(){
+		amount13.point --;
+		$("#counter13").text(amount13.point);
+	});
 	
 	$("#submit14").click(function(){
 		amount14.name = $("#name14").val();
@@ -254,6 +306,10 @@ $(function(){
 	});
 	$("#ad1btn14").click(function(){
 		amount14.point ++;
+		$("#counter14").text(amount14.point);
+	});
+	$("#min1btn14").click(function(){
+		amount14.point --;
 		$("#counter14").text(amount14.point);
 	});
 	
@@ -272,6 +328,10 @@ $(function(){
 		amount15.point ++;
 		$("#counter15").text(amount15.point);
 	});
+	$("#min1btn15").click(function(){
+		amount15.point --;
+		$("#counter15").text(amount15.point);
+	});
 	
 	$("#submit16").click(function(){
 		amount16.name = $("#name16").val();
@@ -286,6 +346,10 @@ $(function(){
 	});
 	$("#ad1btn16").click(function(){
 		amount16.point ++;
+		$("#counter16").text(amount16.point);
+	});
+	$("#min1btn16").click(function(){
+		amount16.point --;
 		$("#counter16").text(amount16.point);
 	});
 	
@@ -304,6 +368,10 @@ $(function(){
 		amount17.point ++;
 		$("#counter17").text(amount17.point);
 	});
+	$("#min1btn17").click(function(){
+		amount17.point --;
+		$("#counter17").text(amount17.point);
+	});
 	
 	$("#submit18").click(function(){
 		amount18.name = $("#name18").val();
@@ -318,6 +386,10 @@ $(function(){
 	});
 	$("#ad1btn18").click(function(){
 		amount18.point ++;
+		$("#counter18").text(amount18.point);
+	});
+	$("#min1btn18").click(function(){
+		amount18.point --;
 		$("#counter18").text(amount18.point);
 	});
 	
@@ -336,6 +408,10 @@ $(function(){
 		amount19.point ++;
 		$("#counter19").text(amount19.point);
 	});
+	$("#min1btn19").click(function(){
+		amount19.point --;
+		$("#counter19").text(amount19.point);
+	});
 	
 	$("#submit20").click(function(){
 		amount20.name = $("#name20").val();
@@ -350,6 +426,10 @@ $(function(){
 	});
 	$("#ad1btn20").click(function(){
 		amount20.point ++;
+		$("#counter20").text(amount20.point);
+	});
+	$("#min1btn20").click(function(){
+		amount20.point --;
 		$("#counter20").text(amount20.point);
 	});
 	
@@ -368,6 +448,10 @@ $(function(){
 		amount21.point ++;
 		$("#counter21").text(amount21.point);
 	});
+	$("#min1btn21").click(function(){
+		amount21.point --;
+		$("#counter21").text(amount21.point);
+	});
 	
 	$("#submit22").click(function(){
 		amount22.name = $("#name22").val();
@@ -382,6 +466,10 @@ $(function(){
 	});
 	$("#ad1btn22").click(function(){
 		amount22.point ++;
+		$("#counter22").text(amount22.point);
+	});
+	$("#min1btn22").click(function(){
+		amount22.point --;
 		$("#counter22").text(amount22.point);
 	});
 	
@@ -400,6 +488,10 @@ $(function(){
 		amount23.point ++;
 		$("#counter23").text(amount23.point);
 	});
+	$("#min1btn23").click(function(){
+		amount23.point --;
+		$("#counter23").text(amount23.point);
+	});
 	
 	$("#submit24").click(function(){
 		amount24.name = $("#name24").val();
@@ -414,6 +506,10 @@ $(function(){
 	});
 	$("#ad1btn24").click(function(){
 		amount24.point ++;
+		$("#counter24").text(amount24.point);
+	});
+	$("#min1btn24").click(function(){
+		amount24.point --;
 		$("#counter24").text(amount24.point);
 	});
 	
@@ -432,6 +528,10 @@ $(function(){
 		amount25.point ++;
 		$("#counter25").text(amount25.point);
 	});
+	$("#min1btn25").click(function(){
+		amount25.point --;
+		$("#counter25").text(amount25.point);
+	});
 	
 	$("#submit26").click(function(){
 		amount26.name = $("#name26").val();
@@ -446,6 +546,10 @@ $(function(){
 	});
 	$("#ad1btn26").click(function(){
 		amount26.point ++;
+		$("#counter26").text(amount26.point);
+	});
+	$("#min1btn26").click(function(){
+		amount26.point --;
 		$("#counter26").text(amount26.point);
 	});
 	
@@ -464,6 +568,10 @@ $(function(){
 		amount27.point ++;
 		$("#counter27").text(amount27.point);
 	});
+	$("#min1btn27").click(function(){
+		amount27.point --;
+		$("#counter27").text(amount27.point);
+	});
 	
 	$("#submit28").click(function(){
 		amount28.name = $("#name28").val();
@@ -478,6 +586,10 @@ $(function(){
 	});
 	$("#ad1btn28").click(function(){
 		amount28.point ++;
+		$("#counter28").text(amount28.point);
+	});
+	$("#min1btn28").click(function(){
+		amount28.point --;
 		$("#counter28").text(amount28.point);
 	});
 	
@@ -496,6 +608,10 @@ $(function(){
 		amount29.point ++;
 		$("#counter29").text(amount29.point);
 	});
+	$("#min1btn29").click(function(){
+		amount29.point --;
+		$("#counter29").text(amount29.point);
+	});
 	
 	$("#submit30").click(function(){
 		amount30.name = $("#name30").val();
@@ -510,6 +626,10 @@ $(function(){
 	});
 	$("#ad1btn30").click(function(){
 		amount30.point ++;
+		$("#counter30").text(amount30.point);
+	});
+	$("#min1btn30").click(function(){
+		amount30.point --;
 		$("#counter30").text(amount30.point);
 	});
 	
@@ -527,6 +647,26 @@ $(function(){
 		$("#8th").text("8位：" + allamount[7].name + "(" + allamount[7].point + "ポイント)");
 		$("#9th").text("9位：" + allamount[8].name + "(" + allamount[8].point + "ポイント)");
 		$("#10th").text("10位：" + allamount[9].name + "(" + allamount[9].point + "ポイント)");
+		$("#11th").text("11位：" + allamount[10].name + "(" + allamount[10].point + "ポイント)");
+		$("#12th").text("12位：" + allamount[11].name + "(" + allamount[11].point + "ポイント)");
+		$("#13th").text("13位：" + allamount[12].name + "(" + allamount[12].point + "ポイント)");
+		$("#14th").text("14位：" + allamount[13].name + "(" + allamount[13].point + "ポイント)");
+		$("#15th").text("15位：" + allamount[14].name + "(" + allamount[14].point + "ポイント)");
+		$("#16th").text("16位：" + allamount[15].name + "(" + allamount[15].point + "ポイント)");
+		$("#17th").text("17位：" + allamount[16].name + "(" + allamount[16].point + "ポイント)");
+		$("#18th").text("18位：" + allamount[17].name + "(" + allamount[17].point + "ポイント)");
+		$("#19th").text("19位：" + allamount[18].name + "(" + allamount[18].point + "ポイント)");
+		$("#20th").text("20位：" + allamount[19].name + "(" + allamount[19].point + "ポイント)");
+		$("#21st").text("21位：" + allamount[20].name + "(" + allamount[20].point + "ポイント)");
+		$("#22nd").text("22位：" + allamount[21].name + "(" + allamount[21].point + "ポイント)");
+		$("#23rd").text("23位：" + allamount[22].name + "(" + allamount[22].point + "ポイント)");
+		$("#24th").text("24位：" + allamount[23].name + "(" + allamount[23].point + "ポイント)");
+		$("#25th").text("25位：" + allamount[24].name + "(" + allamount[24].point + "ポイント)");
+		$("#26th").text("26位：" + allamount[25].name + "(" + allamount[25].point + "ポイント)");
+		$("#27th").text("27位：" + allamount[26].name + "(" + allamount[26].point + "ポイント)");
+		$("#28th").text("28位：" + allamount[27].name + "(" + allamount[27].point + "ポイント)");
+		$("#29th").text("29位：" + allamount[28].name + "(" + allamount[28].point + "ポイント)");
+		$("#30th").text("30位：" + allamount[29].name + "(" + allamount[29].point + "ポイント)");
 	});
 	
 });
